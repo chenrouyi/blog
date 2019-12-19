@@ -5,6 +5,7 @@ An Intro to Git and GitHub for Beginners (Tutorial).
 date:   2019-12-19 21:03:36 +0530
 categories: GitHub
 ---
+
 # An Intro to Git and GitHub for Beginners (Tutorial)
 **In August, we hosted a Women Who Code meetup at HubSpot and led a workshop for beginners on using git and GitHub. I first walked through a slide presentation on the basics and background of git and then we broke out into groups to run through a tutorial I created to simulate working on a large, collaborative project. We got feedback after the event that it was a helpful, hands-on introduction. So if you're new to git, too, follow the steps below to get comfortable making changes to the code base, opening up a pull request (PR), and merging code into the master branch. Any important git and GitHub terms are in bold with links to the official git reference materials. **
 ## Step 0: Install git and create a GitHub account
