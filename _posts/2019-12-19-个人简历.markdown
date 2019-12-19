@@ -5,4 +5,4 @@ description:  "陈柔屹的个人简历"
 date:   2019-12-19 21:03:36 +0530
 ---
 
-![texture theme preview](assets/images/jl.png)
+![texture theme preview](/blog/assets/images/jl.png)
