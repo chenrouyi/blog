@@ -14,7 +14,7 @@ sass:
 permalink: /posts/:title/
 texture:
   title: 陈柔屹的博客
-  tagline: 老师. 英语
+  tagline: 英语 .教师
   date_format: "%b %-d, %Y"
   style: black
   showNav: false

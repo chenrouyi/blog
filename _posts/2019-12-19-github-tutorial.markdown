@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "GitHub Tutorial"
-An Intro to Git and GitHub for Beginners (Tutorial).
+description:  An Intro to Git and GitHub for Beginners (Tutorial).
 date:   2019-12-19 21:03:36 +0530
 categories: GitHub
 ---
