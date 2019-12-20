@@ -8,7 +8,7 @@ categories: GitHub
 
 
 # An Intro to Git and GitHub for Beginners (Tutorial)
-**In August, we hosted a Women Who Code meetup at HubSpot and led a workshop for beginners on using git and GitHub. I first walked through a slide presentation on the basics and background of git and then we broke out into groups to run through a tutorial I created to simulate working on a large, collaborative project. We got feedback after the event that it was a helpful, hands-on introduction. So if you're new to git, too, follow the steps below to get comfortable making changes to the code base, opening up a pull request (PR), and merging code into the master branch. Any important git and GitHub terms are in bold with links to the official git reference materials. **
+**In August, we hosted a Women Who Code meetup at HubSpot and led a workshop for beginners on using git and GitHub. I first walked through a slide presentation on the basics and background of git and then we broke out into groups to run through a tutorial I created to simulate working on a large, collaborative project. We got feedback after the event that it was a helpful, hands-on introduction. So if you're new to git, too, follow the steps below to get comfortable making changes to the code base, opening up a pull request (PR), and merging code into the master branch. Any important git and GitHub terms are in bold with links to the official git reference materials.** 
 ## Step 0: Install git and create a GitHub account
 **The first two things you'll want to do are install git and create a free GitHub account.
 Follow the instructions here to install git (if it's not already installed). Note that for this tutorial we will be using git on the command line only. While there are some great git GUIs (graphical user interfaces), I think it's easier to learn git using git-specific commands first and then to try out a git GUI once you're more comfortable with the command.
@@ -29,7 +29,7 @@ mnelson:Desktop mnelson$ cd ~/Desktop
 mnelson:Desktop mnelson$ mkdir myproject
 mnelson:Desktop mnelson$ cd myproject/
 ```
-**To initialize a git repository in the root of the folder, run the git init command:  **
+**To initialize a git repository in the root of the folder, run the git init command:**
 ```
 mnelson:myproject mnelson$ git init
 Initialized empty Git repository in /Users/mnelson/Desktop/myproject/.git/
@@ -52,7 +52,7 @@ mnelson:myproject mnelson$ ls
 mnelson.txt
 ```
 
-After creating the new file, you can use the git status command to see which files git knows exist.
+**After creating the new file, you can use the git status command to see which files git knows exist.**
 ```
 mnelson:myproject mnelson$ git status
 On branch master
@@ -84,13 +84,11 @@ nothing added to commit but untracked files present (use "git add" to track)
 **What this basically says is, "Hey, we noticed you created a new file called mnelson.txt, but unless you use the 'git add' command we aren't going to do anything with it."**
 
 ### An interlude: The staging environment, the commit, and you
+
 **One of the most confusing parts when you're first learning git is the concept of the staging environment and how it relates to a commit.
 A commit is a record of what files you have changed since the last time you made a commit. Essentially, you make changes to your repo (for example, adding a file or modifying one) and then tell git to put those files into a commit.
-Commits make up the essence of your project and allow you to go back to the state of a project at any point.
-So, how do you tell git which files to put into a commit? This is where the staging environment or index come in. As seen in Step 2, when you make changes to your repo, git notices that a file has changed but won't do anything with it (like adding it in a commit).
-To add a file to a commit, you first need to add it to the staging environment. To do this, you can use the git add <filename> command (see Step 3 below).
-Once you've used the git add command to add all the files you want to the staging environment, you can then tell git to package them into a commit using the git commit command.
-Note: The staging environment, also called 'staging', is the new preferred term for this, but you can also see it referred to as the 'index'.**
+Commits make up the essence of your project and allow you to go back to the state of a project at any point.**
+
 
 ## Step 3: Add a file to the staging environment
 **Add a file to the staging environment using the git add command.
@@ -144,11 +142,11 @@ mnelson:myproject mnelson$ git commit -m "This is my first commit!"
 ## Step 5: Create a new branch
 **Now that you've made a new commit, let's try something a little more advanced.**
 
-**Say you want to make a new feature but are worried about making changes to the main project while developing the feature. This is where git branches come in. **
+**Say you want to make a new feature but are worried about making changes to the main project while developing the feature. This is where git branches come in.**
 
-**Branches allow you to move back and forth between 'states' of a project. For instance, if you want to add a new page to your website you can create a new branch just for that page without affecting the main part of the project. Once you're done with the page, you can merge your changes from your branch into the master branch. When you create a new branch, Git keeps track of which commit your branch 'branched' off of, so it knows the history behind all the files. **
+**Branches allow you to move back and forth between 'states' of a project. For instance, if you want to add a new page to your website you can create a new branch just for that page without affecting the main part of the project. Once you're done with the page, you can merge your changes from your branch into the master branch. When you create a new branch, Git keeps track of which commit your branch 'branched' off of, so it knows the history behind all the files.**
 
-**Let's say you are on the master branch and want to create a new branch to develop your web page. Here's what you'll do: Run git checkout -b <my branch name>. This command will automatically create a new branch and then 'check you out' on it, meaning git will move you to that branch, off of the master branch.**
+Let's say you are on the master branch and want to create a new branch to develop your web page. Here's what you'll do: Run git checkout -b <my branch name>. This command will automatically create a new branch and then check you out on it, meaning git will move you to that branch, off of the master branch
 
 **After running the above command, you can use the git branch command to confirm that your branch was created:**
 
@@ -183,7 +181,7 @@ mnelson:myproject mnelson$ git branch
 
 **When you're done filling out the information, press the 'Create repository' button to make your new repo.**
 
-**GitHub will ask if you want to create a new repo from scratch or if you want to add a repo you have created locally. In this case, since we've already created a new repo locally, we want to push that onto GitHub so follow the '....or push an existing repository from the command line' section: **
+**GitHub will ask if you want to create a new repo from scratch or if you want to add a repo you have created locally. In this case, since we've already created a new repo locally, we want to push that onto GitHub so follow the '....or push an existing repository from the command line' section:**
 
 
 ```
