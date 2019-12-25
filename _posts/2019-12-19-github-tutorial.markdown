@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "GitHub Tutorial"
+title:  "Git和GitHub入门指南（教程）"
 description:  "An Intro to Git and GitHub for Beginners (Tutorial)."
 date:   2019-12-19 21:03:36 +0530
 categories: GitHub
